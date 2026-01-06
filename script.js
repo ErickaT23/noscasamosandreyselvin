@@ -191,3 +191,19 @@ window.toggleDetails = function() {
         : "none";
 }
 
+window.confirmarWhatsApp = function () {
+    const phone = "50259684301";
+  
+    const guest = window.currentGuest;
+  
+    const nombre = guest?.name ? guest.name : "Invitado";
+    const pases = guest?.passes ? guest.passes : 1;
+  
+    const verbo = pases === 1 ? "soy" : "somos";
+  
+    const texto = `Hola, ${verbo} ${nombre} y confirmo la asistencia a la boda de Andrea y Selvin. Somos ${pases} ${pases === 1 ? "persona" : "personas"}.`;
+  
+    const url = `https://wa.me/${phone}?text=${encodeURIComponent(texto)}`;
+    window.location.href = url;
+  };
+  
