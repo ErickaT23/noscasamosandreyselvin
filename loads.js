@@ -41,7 +41,7 @@ const guests = [
     { id: "40", name: "Familia Morales Martinez", passes: 2, gender: "mixto" },
     { id: "41", name: "Sr. Felipe Hernandez", passes: 1, gender: "masculino" },
     { id: "42", name: "Sr. Carlos Castellano", passes: 1, gender: "masculino" },
-    { id: "43", name: "Sra. Angie Calderon", passes: 2, gender: "femenino" },
+    { id: "43", name: "Sra. Angie Calderon", passes: 1, gender: "femenino" },
     { id: "44", name: "Sr. Marlon Giron", passes: 1, gender: "masculino" },
     { id: "45", name: "Sra. Valentina Dávila", passes: 1, gender: "femenino" },
     { id: "46", name: "Familia Ulin Duarte", passes: 2, gender: "mixto" },
