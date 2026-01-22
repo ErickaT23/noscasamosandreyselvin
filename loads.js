@@ -77,7 +77,9 @@ const guests = [
     { id: "76", name: "Familia de Leon", passes: 2, gender: "mixto" },
     { id: "77", name: "Sr. Santiago Ixmay", passes: 1, gender: "masculino" },
     { id: "78", name: "Sr. Sergio Azu", passes: 1, gender: "masculino" },
-    { id: "79", name: "Sr. Jonathan Munguia", passes: 1, gender: "masculino" }
+    { id: "79", name: "Sr. Jonathan Munguia", passes: 1, gender: "masculino" },
+    { id: "80", name: "Julio Hernández", passes: 1, gender: "masculino" },
+    { id: "81", name: "Marianita chaclan", passes: 1, gender: "femenino" }
   ];  
 
   document.addEventListener("DOMContentLoaded", function () {
